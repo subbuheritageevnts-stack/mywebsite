@@ -12,35 +12,35 @@ Index. html
   <style>
     :root{--accent:#b33;--muted:#6b6b6b;--card:#fff;--bg:#faf7f5}
     *{box-sizing:border-box}
-    body{font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;margin:0;background:var(--bg);color:#222}
-    header{background:linear-gradient(90deg,#fff 0%,#fff 60%, #f7ecea 100%);padding:28px 16px;border-bottom:1px solid #eee}
-    .wrap{max-width:1100px;margin:0 auto}
-    .brand{display:flex;align-items:center;gap:14px}
-    .logo{width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,#c33,#f4c7c7);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:18px}
-    h1{margin:0;font-size:22px}
-    .tag{color:var(--muted);margin-top:6px}
-    .top-actions{margin-left:auto;display:flex;gap:8px}
-    .btn{padding:10px 12px;border-radius:8px;text-decoration:none;border:1px solid rgba(0,0,0,.06);background:#fff;display:inline-block}
-    nav{display:flex;gap:12px;align-items:center;margin-top:14px}
-    main{padding:22px 16px}
-    .hero{display:grid;grid-template-columns:1fr;gap:16px;align-items:center}
-    @media(min-width:900px){.hero{grid-template-columns:1fr 420px}}
-    .lead{font-size:18px;color:#333;line-height:1.5}
-    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:16px}
-    .card{background:var(--card);padding:14px;border-radius:10px;box-shadow:0 6px 18px rgba(20,20,20,0.03)}
-    .services li{margin-bottom:8px}
-    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-top:12px}
-    .gallery img{width:100%;height:120px;object-fit:cover;border-radius:8px}
-    footer{padding:18px 16px;background:#fff;margin-top:20px;border-top:1px solid #eee}
+    body{font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;margin:0;background:(--bg);color:#222}
+    header{background:(90,#fff 0,#fff 60, #f7ecea 100);padding:28 16;border-bottom:1 solid #eee}
+    .wrap{max-width:1100;margin:0 auto}
+    .brand{display:flex;align-items:center;gap:14}
+    .logo{width:72;height:72;border-radius:12;background:(135,#c33,#f4c7c7);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:18}
+    h1{margin:0;font-size:22}
+    .tag{color:(--muted);margin-top:6}
+    .top-actions{margin-left:auto;display:flex;gap:8}
+    .btn{padding:10 12;border-radius:8;text-decoration:none;border:1 solid (0,0,0,.06);background:#fff;display:inline-block}
+    nav{display:flex;gap:12;align-items:center;margin-top:14}
+    main{padding:22 16}
+    .hero{display:grid;grid-template-columns:1;gap:16;align-items:center}
+    (min-width:900){.hero{grid-template-columns:1 420}}
+    .lead{font-size:18;color:#333;line-height:1.5}
+    .cards{display:grid;grid-template-columns:(auto-fit,(220,1));gap:14;margin-top:16}
+    .card{background:(--card);padding:14;border-radius:10;box-shadow:0 6 18 (20,20,20,0.03)}
+    .services li{margin-bottom:8}
+    .gallery{display:grid;grid-template-columns:(auto-fit,(140,1));gap:10;margin-top:12}
+    .gallery img{width:100;height:120;object-fit:cover;border-radius:8}
+    footer{padding:18 16;background:#fff;margin-top:20;border-top:1 solid #eee}
     .contact-list{list-style:none;padding:0;margin:0}
-    .contact-list li{margin-bottom:8px}
-    .micro{font-size:13px;color:var(--muted)}
-    .chip{display:inline-block;padding:6px 10px;border-radius:999px;border:1px solid rgba(0,0,0,.06);background:#fff}
+    .contact-list li{margin-bottom:8}
+    .micro{font-size:13;color:(--muted)}
+    .chip{display:inline-block;padding:6 10;border-radius:999;border:1 solid (0,0,0,.06);background:#fff}
   </style>
 </head>
 <body>
   <header>
-    <div class="wrap" style="display:flex;align-items:center;gap:16px">
+    <div class="wrap" style="display:flex;align-items:center;gap:16">
       <div class="brand">
         <div class="logo">SH</div>
         <div>
@@ -57,10 +57,10 @@ Index. html
   </header>  <main class="wrap">
     <section class="hero">
       <div>
-        <h2 style="margin-top:6px">Authentic Naati-style Catering for Every Event</h2>
+        <h2 style="margin-top:6">Authentic Naati-style Catering for Every Event</h2>
         <p class="lead">From rustic Naati biryani and smoky BBQ to the perfect chaakna that keeps guests coming back — Subbu Heritage brings premium, reliable catering with a desi soul. Weddings, private parties, corporate lunches or live counters — we handle food so you can enjoy the moment.</p><div class="cards">
       <div class="card">
-        <h3 style="margin:0 0 8px 0">What we do</h3>
+        <h3 style="margin:0 0 8 0">What we do</h3>
         <ul class="services micro">
           <li>Wedding & Reception Catering (full-service)</li>
           <li>Birthday & Private Events</li>
@@ -71,19 +71,19 @@ Index. html
       </div>
 
       <div class="card">
-        <h3 style="margin:0 0 8px 0">Signature dishes</h3>
+        <h3 style="margin:0 0 8 0">Signature dishes</h3>
         <p class="micro">Naati Style Mutton Biryani, Hyderabadi Chicken Biryani, Tandoori Kebabs, Desi Sweets & Chaakna platters.</p>
       </div>
 
       <div class="card">
-        <h3 style="margin:0 0 8px 0">Why choose us</h3>
+        <h3 style="margin:0 0 8 0">Why choose us</h3>
         <p class="micro">Traditional recipes, on-time service, hygienic preparation, experienced staff and transparent pricing.</p>
       </div>
 
       <div class="card">
-        <h3 style="margin:0 0 8px 0">Quick booking</h3>
+        <h3 style="margin:0 0 8 0">Quick booking</h3>
         <p class="micro">Call or WhatsApp us to check availability and get a customised quote.</p>
-        <div style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap">
+        <div style="margin-top:8;display:flex;gap:8;flex-wrap:wrap">
           <a class="chip" href="https://wa.me/919008118655">WhatsApp Chetan</a>
           <a class="chip" href="https://wa.me/916363762521">WhatsApp Prince</a>
         </div>
@@ -92,7 +92,7 @@ Index. html
 
   </div>
 
-  <aside class="card" style="padding:18px;align-self:start">
+  <aside class="card" style="padding:18;align-self:start">
     <h3 style="margin-top:0">Contact & Location</h3>
     <ul class="contact-list micro">
       <li><strong>Chetan Kumar GR</strong> — +91 90081 18655</li>
@@ -100,13 +100,13 @@ Index. html
       <li><strong>Email:</strong> subbuheritageevents@gmail.com</li>
       <li><strong>Address:</strong> 2QX8+XCP, Sannatammanahalli, Bengaluru, Karnataka 562114</li>
     </ul>
-    <div style="margin-top:12px">
+    <div style="margin-top:12">
       <a class="btn" href="https://www.google.com/maps/search/?api=1&query=2QX8%2BXCP%2C%20Sannatammanahalli%2C%20Bengaluru%2C%20Karnataka%20562114" target="_blank">Open in Google Maps</a>
     </div>
   </aside>
 </section>
 
-<section style="margin-top:22px">
+<section style="margin-top:22">
   <h3>Gallery</h3>
   <div class="gallery">
     <img src="https://via.placeholder.com/600x400?text=Naati+Biryani" alt="Naati Biryani">
@@ -116,24 +116,25 @@ Index. html
   </div>
 </section>
 
-<section style="margin-top:22px" class="card">
+<section style="margin-top:22" class="card">
   <h3 style="margin-top:0">Testimonials</h3>
   <p class="micro">"Amazing biryani and on-time service — our guests loved it!" — Shweta R.</p>
   <p class="micro">"Perfect chaakna for the after-party. Highly recommended." — Rohit M.</p>
 </section>
 
-<section style="margin-top:18px" class="card">
+<section style="margin-top:18" class="card">
   <h3 style="margin-top:0">Download Menu / Quote</h3>
   <p class="micro">Send us a WhatsApp message with your event date and guest count to receive a customised menu and quote.</p>
   <a class="btn" href="https://wa.me/919008118655">Message Chetan on WhatsApp</a>
 </section>
 
   </main>  <footer>
-    <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
+    <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;gap:16;flex-wrap:wrap">
       <div class="micro">© 2025 Subbu Heritage Events & Catering — Powered by PUDA</div>
       <div class="micro">Built for <strong>Subbu Heritage</strong> • Bengaluru</div>
     </div>
   </footer></body>
 </html>
+
 
 
